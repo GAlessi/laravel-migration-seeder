@@ -12,6 +12,5 @@ $factory->define(Movie::class, function (Faker $faker) {
         'nationality' => $faker -> country,
         'date' => $faker -> dateTime,
         'vote' => $faker -> numberBetween( 0, 10)
-
     ];
 });

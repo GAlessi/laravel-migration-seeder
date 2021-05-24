@@ -18,7 +18,7 @@ class CreateMoviesTable extends Migration
 
                 $table->string('title', 100);
                 $table->string('original_title', 100);
-                $table->string('nationality', 20);
+                $table->string('nationality', 64);
                 $table->date('date');
                 $table->float('vote', 2, 1);
 
