@@ -4,14 +4,18 @@
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 main {
   width: 100%;
   text-align: center;
-}
-
-main > div {
-  border: 1px solid black;
-  padding: 20px;
+  min-height: calc(100vh - 120px);
+  padding: 20px 0;
 }
 
 main ul {
@@ -22,10 +26,9 @@ main ul li {
   line-height: 40px;
 }
 
-.home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+main form input {
+  width: 200px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -45,5 +48,22 @@ a:hover {
   color: white;
   border: 1px solid orange;
   margin-top: 50px;
+}
+
+footer {
+  height: 40px;
+  text-align: center;
+  background-color: grey;
+}
+
+header {
+  height: 80px;
+  text-align: center;
+  background-color: grey;
+}
+
+header .button {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 

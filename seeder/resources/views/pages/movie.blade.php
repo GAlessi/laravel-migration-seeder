@@ -10,6 +10,5 @@
             <li><h3>Vote {{$movie -> vote}}</h3></li>
 
         </ul>
-        <a class="button" href="{{route('home')}}">Back</a>
     </main>
 @endsection

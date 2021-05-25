@@ -1,3 +1,5 @@
 <header>
-    <h2>Sono un header</h2>
+
+    <a class="button" href="{{route('home')}}">Home</a>
+    <a class="button" href="{{route('form')}}">Add new Movie</a>
 </header>
